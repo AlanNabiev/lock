@@ -1,5 +1,5 @@
 export function getInjected() {
-  const web3: any = window['ethereum'];
+  const web3 = window['ethereum'];
   if (!web3) return;
   let injected = {
     name: 'Injected',
